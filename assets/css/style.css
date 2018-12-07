@@ -95,10 +95,10 @@ form{
 }
 
 input{
+    border: 1px lightgrey solid;
     margin: 5px 0px 5px 0px;
     position: relative;
     width: 90%;
-    border: 1px lightgrey solid;
 }
 
 textarea{
@@ -176,9 +176,9 @@ footer{
     }
 
     .name{
+        clear: both;
         float: left;
         left: 10%;
-        clear: both;
     }
 
     nav{
@@ -195,9 +195,9 @@ footer{
     }
     
     .name{
+        clear: both;
         float: left;
         left: 5%;
-        clear: both;
     }
 
     nav{
@@ -242,6 +242,36 @@ footer{
     }
 }
 
+/*600px*/
+@media screen and (max-width: 600px){
+    .container{
+        max-width: 600px;
+    }
+
+    header{
+        max-width: 600px;
+    }
+
+    .headercontent{
+        max-width: 600px;
+    }
+
+    .name{
+        left: 0;
+        position: relative;
+        text-align: center;
+        top: 0;
+        width: 600px;
+    }
+
+    nav{
+        position: relative;
+        top: 0;
+        left: 25%;
+        justify-content: center;
+    }
+}
+
 /*375px*/
 @media screen and (max-width: 375px) {
     .container{
@@ -257,16 +287,16 @@ footer{
     }
 
     .name{
-        width: 375px;
-        position: relative;
-        top: 0;
         left: 0;
+        position: relative;
         text-align: center;
+        top: 0;
+        width: 375px;
     }
 
    nav{
        top: 0px;
-       left: 0px;
+       left: 15%;
         justify-content: center;
    }
 
